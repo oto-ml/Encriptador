@@ -3,11 +3,11 @@ body {
     color: #0A3871;
 }   
 
-button-e {
+#encrypt-btn {
     background-color: #0A3871;
 }
 
-button-d {
+#decrypt-btn {
     background-color: #D8DFE8;
 }
 
