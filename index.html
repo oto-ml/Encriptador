@@ -9,29 +9,28 @@
 
 <body>
     <header>
-
+        <img src="./img/Logo.png" alt="logotipo">
     </header>
 
     <main class="principal">
-        <p>Ingrese el texto aqui</p>
         <div class="container">
-            <h1>Encriptador</h1>
             <form action="main.js" method="post">
-                <label for="texto">Texto a encriptar:</label>
+                <label for="texto">Ingrese el texto aqui</label>
                 <input type="text" name="texto" id="texto" required>
-                <input type="submit" value="Encriptar">
             </form>
+            <div class="buttons">
+                <button class="encrypt-btn">Encriptar</button>
+                <button class="encrypt-btn">Desencriptar</button>
+            </div>
         </div>
+        
     
         <div class="result">
             <h2>Ningun mensaje fue encontrado</h2>
-            <p>Ingrese el texto que desea encriptar o desencriptar</p>
+            <p class="result-content">Ingrese el texto que desea encriptar o desencriptar</p>
             <textarea id="result-text" readonly></textarea>
         </div>
-        <div class="buttons">
-            <button id="encrypt-btn">Encriptar</button>
-            <button id="decrypt-btn">Desencriptar</button>
-        </div>
+        
     </main>
 
     <footer>

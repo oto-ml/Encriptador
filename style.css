@@ -21,13 +21,11 @@ body {
 }
 
 .result {
-    display: flex;
-    justify-content: center;
-    align-items: fixed;
+   position: fixed;
+   right: 0;
+    top: 0;
+    width: 100px;
     height: 100vh;
-    border-radius: 50px;
-    box-sizing: border-box;
-    justify-content: flex-end;
 }
 
 .result-text {
@@ -40,11 +38,20 @@ body {
     justify-content: flex-end;
 }
 
-#encrypt-btn {
-    background-color: #0A3871;
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
 }
 
-#decrypt-btn {
-    background-color: #D8DFE8;
+.encrypt-btn {
+    background-color: #0A3871;
+    width: 328px;
+    text-align: center;
+    padding: 21.5px 0 21.5px 0;
+    border-radius: 24px;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
 }
 
