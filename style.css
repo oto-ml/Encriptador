@@ -55,3 +55,60 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+input[type="text"] {
+    width: 100%; /* Ancho completo del contenedor */
+    padding: 10px; /* Espaciado interno */
+    margin-top: 10px; /* Margen superior */
+    margin-bottom: 20px; /* Margen inferior */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    box-sizing: border-box; /* Incluir padding y border en el ancho total */
+    font-size: 16px; /* Tamaño de la fuente */
+    flex-direction: column;
+    background-color: #EFF1FA;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #EFF1FA;
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+    background-color: #EFF1FA;
+}
+
+
+label {
+    font-size: 16px; /* Tamaño de la fuente */
+    color: #333; /* Color del texto */
+    font-weight: bold; /* Peso de la fuente */
+}
+
+.input-container label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 16px; /* Tamaño de la fuente */
+    color: #0A3871; /* Color del texto */
+    pointer-events: none; /* Evitar que el label interfiera con el input */
+    transition: 0.2s; /* Transición para el efecto de desplazamiento */
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    background-color: #EFF1FA ;
+}
+
+
+/* Estilos para el label cuando el input está enfocado o tiene texto */
+input[type="text"]:focus + label,
+input[type="text"]:not(:placeholder-shown) + label {
+    top: -10px;
+    left: 10px;
+    font-size: 12px;
+    color: #333;
+}

@@ -15,8 +15,10 @@
     <main class="principal">
         <div class="container">
             <form action="main.js" method="post">
-                <label for="texto">Ingrese el texto aqui</label>
-                <input type="text" name="texto" id="texto" required>
+                <div class="input-container">
+                    <input type="text" placeholder="Ingrese el texto aquí">
+                    <input type="text" name="texto" id="texto" required>
+                </div>
             </form>
             <div class="buttons">
                 <button class="encrypt-btn">Encriptar</button>
@@ -26,9 +28,11 @@
         
     
         <div class="result">
-            <h2>Ningun mensaje fue encontrado</h2>
-            <p class="result-content">Ingrese el texto que desea encriptar o desencriptar</p>
-            <textarea id="result-text" readonly></textarea>
+            <div>
+                <h2>Ningun mensaje fue encontrado</h2>
+                <p class="result-content">Ingrese el texto que desea encriptar o desencriptar</p>
+                <textarea id="result-text" readonly></textarea>
+            </div>
         </div>
         
     </main>
