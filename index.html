@@ -12,30 +12,32 @@
 
     </header>
 
-    <main>
+    <main class="principal">
         <p>Ingrese el texto aqui</p>
+        <div class="container">
+            <h1>Encriptador</h1>
+            <form action="main.js" method="post">
+                <label for="texto">Texto a encriptar:</label>
+                <input type="text" name="texto" id="texto" required>
+                <input type="submit" value="Encriptar">
+            </form>
+        </div>
+    
+        <div class="result">
+            <h2>Ningun mensaje fue encontrado</h2>
+            <p>Ingrese el texto que desea encriptar o desencriptar</p>
+            <textarea id="result-text" readonly></textarea>
+        </div>
+        <div class="buttons">
+            <button id="encrypt-btn">Encriptar</button>
+            <button id="decrypt-btn">Desencriptar</button>
+        </div>
     </main>
 
     <footer>
 
     </footer>
 
-    <div class="container">
-        <h1>Encriptador</h1>
-        <form action="main.js" method="post">
-            <label for="texto">Texto a encriptar:</label>
-            <input type="text" name="texto" id="texto" required>
-            <input type="submit" value="Encriptar">
-        </form>
-    </div>
-
-    <div class="result">
-        <h2>Resultado:</h2>
-        <textarea id="result-text" readonly></textarea>
-    </div>
-    <div class="buttons">
-        <button id="encrypt-btn">Encriptar</button>
-        <button id="decrypt-btn">Desencriptar</button>
-    </div>
+    
 
 </html>
