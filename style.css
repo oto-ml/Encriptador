@@ -10,6 +10,7 @@ body {
     box-sizing: border-box;
 }   
 
+<<<<<<< HEAD
 .principal {
     display: flex;
     justify-content: center;
@@ -39,10 +40,13 @@ body {
 }
 
 button-e {
+=======
+#encrypt-btn {
+>>>>>>> 8601e7a4ec9dea118ea266785b92df18f6042008
     background-color: #0A3871;
 }
 
-button-d {
+#decrypt-btn {
     background-color: #D8DFE8;
 }
 
