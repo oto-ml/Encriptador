@@ -9,24 +9,28 @@
 
 <body>
     <header>
-        <img src="./img/Logo.png" alt="logotipo" class="logo">
+        <div class="logo-imagen">
+            <img src="./img/Logo.png" alt="logotipo" class="logo">
+        </div>
     </header>
 
-    <main class="principal">
-        <div class="container">
-            <form action="main.js" method="post">
-                <div class="input-container">
-                    <label for="texto">Ingrese el texto aquí</label>
-                    <input type="text" name="texto" id="texto" required>
+<main class="principal">
+        <section>
+            <div class="container">
+                <form action="main.js" method="post">
+                    <div class="input-container">
+                        <label for="texto">Ingrese el texto aquí</label>
+                        <input type="text" name="texto" id="texto" required>
+                    </div>
+                </form>
+                <div class="buttons">
+                    <button class="encrypt-btn">Encriptar</button>
+                    <button class="desencrypt-btn">Desencriptar</button>
                 </div>
-            </form>
-            <div class="buttons">
-                <button class="encrypt-btn">Encriptar</button>
-                <button class="desencrypt-btn">Desencriptar</button>
             </div>
-        </div>
-        
+        </section>
     
+    <section>
         <div class="result">
             <div class="vertical-rectangle">
                 <h2>Ningun mensaje fue encontrado</h2>
@@ -34,13 +38,11 @@
                 <textarea id="result-text" readonly></textarea>
             </div>
         </div>
-        
-    </main>
+    </section>
+</main>
 
-    <footer>
+<footer>
 
-    </footer>
-
-    
+</footer>
 
 </html>
