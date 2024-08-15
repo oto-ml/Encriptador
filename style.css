@@ -23,9 +23,11 @@ body {
 
 .principal {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     height: 100vh;
+    padding: 20px;
     justify-content: space-between;
+    align-items: flex-start;
 }
 
 .result {
@@ -35,16 +37,6 @@ body {
     border-radius: 50px;
     box-sizing: border-box;
    
-}
-
-.result-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    border-radius: 50px;
-    box-sizing: border-box;
-    justify-content: flex-end;
 }
 
 .buttons {
@@ -106,6 +98,7 @@ input[type="text"] {
     justify-content: center;
     width: 100%;
     background-color: #EFF1FA;
+    margin-right: 50px;
 }
 
 .input-container {
