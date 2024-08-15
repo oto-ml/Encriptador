@@ -29,13 +29,12 @@ body {
 }
 
 .result {
-   display: flex;
-    justify-content: right;
-    align-items: center;
+   display: fixed;
+    justify-content: space-between;
     height: 100vh;
     border-radius: 50px;
     box-sizing: border-box;
-    justify-content: flex-start;
+   
 }
 
 .result-text {
