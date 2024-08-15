@@ -7,7 +7,7 @@
 
 .logo-imagen {
     position: fixed;
-    top: 0;
+    top: 40px;
     left: 0;
     width: 100px; /* Ajusta el tamaño según sea necesario */
     height: auto; /* Mantiene la proporción de la imagen */
@@ -85,7 +85,7 @@ input[type="text"] {
     width: 577px; /* Ancho completo del contenedor */
     height: 48px; /* Altura del input */
     padding: 10px; /* Espaciado interno */
-    margin-top: 30px; /* Margen superior */
+    margin-top: 240px; /* Margen superior */
     margin-bottom: 20px; /* Margen inferior */
     border: none; /* Sin borde */
     display: block;
