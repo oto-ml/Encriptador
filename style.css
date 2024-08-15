@@ -118,19 +118,11 @@ label {
     font-weight: bold; /* Peso de la fuente */
 }
 
-.input-container label {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    font-size: 16px; /* Tamaño de la fuente */
-    color: #0A3871; /* Color del texto */
-    pointer-events: none; /* Evitar que el label interfiera con el input */
-    transition: 0.2s; /* Transición para el efecto de desplazamiento */
-    font-family: "Inter", sans-serif;
+input[type="text"]::placeholder {
+    color: #0A3871; /* Color del placeholder */
+    font-style: "inter"; /* Estilo de la fuente */
     font-size: 32px;
-    background-color: #EFF1FA ;
 }
-
 
 /* Estilos para el label cuando el input está enfocado o tiene texto */
 input[type="text"]:focus + label,
