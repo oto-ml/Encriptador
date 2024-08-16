@@ -140,8 +140,16 @@ input[type="text"]::placeholder {
 .message-area {
     display: flex;
     align-items: center;
+    margin-top: 619px; /* Margen superior */
     width: 336px; /* Ajusta el ancho según tus necesidades */
     height: 122px; /* Ajusta la altura según tus necesidades */
     background-color: rgba(0, 0, 0, 0.2);
     resize: none; /* Evita que el usuario cambie el tamaño del textarea */
+}
+
+.result-image {
+    display: flex;
+    width: 336px; /* Ajusta el tamaño según sea necesario */
+    height: 334px; /* Mantiene la proporción de la imagen */
+    margin-bottom: 20px; /* Margen inferior */
 }
