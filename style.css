@@ -138,5 +138,10 @@ input[type="text"]::placeholder {
 
 /* Estilo para el área de mensajes */
 .message-area {
+    display: flex;
+    align-items: center;
+    width: 336px; /* Ajusta el ancho según tus necesidades */
+    height: 122px; /* Ajusta la altura según tus necesidades */
+    background-color: rgba(0, 0, 0, 0.2);
     resize: none; /* Evita que el usuario cambie el tamaño del textarea */
 }
