@@ -21,64 +21,53 @@ body {
     box-sizing: border-box;
 }   
 
-.principal {
+/* Contenedor principal */
+main {
     display: flex;
-    flex-direction: row;
-    height: 100vh;
-    padding: 20px;
-    justify-content: space-between;
-    align-items: flex-start;
+    flex-direction: row; /* Alinea los elementos en una fila */
+    justify-content: space-between; /* Espacio entre los elementos */
+    align-items: flex-start; /* Alinea los elementos al inicio */
+    height: 100vh; /* Altura completa de la ventana */
+    padding: 20px; /* Espaciado interno */
+    box-sizing: border-box; /* Incluye padding y border en el ancho total */
 }
 
-.result {
-   display: fixed;
-    justify-content: space-between;
-    height: 100vh;
-    width: 100%;
-    border-radius: 50px;
-    box-sizing: border-box;
-   
+input {
+   font-family: "Inter", "sans-serif";
+   font-size: 32px;
 }
 
-.buttons {
+/* Contenedor del formulario */
+.container {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    height: 100vh;
-    gap: 24px;
-    margin-top: auto;
-    padding: 20px;
+    justify-content: center;
+    width: 50%; /* Ajusta el ancho según tus necesidades */
+    background-color: #EFF1FA;
+    padding: 20px; /* Espaciado interno */
+    box-sizing: border-box; /* Incluye padding y border en el ancho total */
 }
 
-.encrypt-btn {
-    background-color: #0A3871;
-    width: 328px;
-    height: 67px;
-    text-align: center;
-    padding: 21.5px 0 21.5px 0;
-    border-radius: 24px;
-    font-size: 16px;
-    font-family: 'Inter', sans-serif;
-    color: white;
+/* Contenedor del resultado */
+.result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%; /* Ajusta el ancho según tus necesidades */
+    background-color: #EFF1FA;
+    padding: 20px; /* Espaciado interno */
+    box-sizing: border-box; /* Incluye padding y border en el ancho total */
+    border-radius: 50px; /* Bordes redondeados */
 }
 
-.desencrypt-btn {
-    background-color: #D8DFE8;
-    width: 328px;
-    height: 67px;
-    text-align: center;
-    padding: 21.5px 0 21.5px 0;
-    border-radius: 24px;
-    font-size: 16px;
-    font-family: 'Inter', sans-serif;
-    color: #0A3871;
-}
-
+/* Estilo para el input */
 input[type="text"] {
-    width: 577px; /* Ancho completo del contenedor */
+    width: 100%; /* Ancho completo del contenedor */
     height: 48px; /* Altura del input */
     padding: 10px; /* Espaciado interno */
-    margin-top: 240px; /* Margen superior */
+    margin-top: 30px; /* Margen superior */
     margin-bottom: 20px; /* Margen inferior */
     border: none; /* Sin borde */
     display: block;
@@ -89,35 +78,50 @@ input[type="text"] {
     background-color: #EFF1FA;
     color: #0A3871;
     resize: none;
-    outline: none;
+    outline: none; /* Sin borde al hacer clic */
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    background-color: #EFF1FA;
-    
-}
-
-.input-container {
-    position: relative;
-    width: 100%;
-    background-color: #EFF1FA;
-}
-
-
+/* Estilo para el placeholder */
 input[type="text"]::placeholder {
     color: #0A3871; /* Color del placeholder */
     font-style: "inter"; /* Estilo de la fuente */
-    font-size: 32px;
+    font-size: 32px; /* Tamaño de la fuente */
+    font-family: "Inter"; /* Familia de la fuente */
 }
 
+/* Estilo para el contenedor de botones */
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    margin-top: 600px;
+    margin-left: auto;
+    padding: 20px;
+}
 
+/* Estilos para los botones */
+.encrypt-btn, .desencrypt-btn {
+    width: 328px;
+    height: 67px;
+    text-align: center;
+    padding: 21.5px 0;
+    border-radius: 24px;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
 
+.encrypt-btn {
+    background-color: #0A3871;
+    color: white;
+}
 
+.desencrypt-btn {
+    background-color: #D8DFE8;
+    color: #0A3871;
+}
+
+/* Estilo para el contenedor vertical */
 .vertical-rectangle {
     width: 400px; /* Ajusta el ancho según tus necesidades */
     height: 944px; /* Ajusta la altura según tus necesidades */
@@ -132,6 +136,7 @@ input[type="text"]::placeholder {
     box-sizing: border-box; /* Incluir padding y border en el ancho total */
 }
 
+/* Estilo para el área de mensajes */
 .message-area {
     resize: none; /* Evita que el usuario cambie el tamaño del textarea */
-   }
+}
