@@ -144,15 +144,17 @@ input[type="text"]::placeholder {
     width: 336px; /* Ajusta el ancho según tus necesidades */
     height: 122px; /* Ajusta la altura según tus necesidades */
     background-color: rgba(0, 0, 0, 0.2);
+    color: #343A40;
     resize: none; /* Evita que el usuario cambie el tamaño del textarea */
     font-family: "Inter", sans-serif; /* Familia de la fuente */
     font-weight: bold; /* Peso de la fuente */
     font-size: 24px; /* Tamaño de la fuente */
+    text-align: center; /* Alineación del texto */
 }
 
 .result-image {
-    display: flex;
+    display: flex; ;
     width: 336px; /* Ajusta el tamaño según sea necesario */
     height: 334px; /* Mantiene la proporción de la imagen */
-    margin-bottom: 20px; /* Margen inferior */
+    margin-bottom: 0px; /* Margen inferior */
 }
