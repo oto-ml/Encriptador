@@ -127,7 +127,7 @@ input[type="text"]::placeholder {
     flex-direction: column;
     align-items: center;
     width: 400px; /* Ajusta el ancho según tus necesidades */
-    height: 944px; /* Ajusta la altura según tus necesidades */
+    height: 850px; /* Ajusta la altura según tus necesidades */
     padding: 10px; /* Espacio interno */
     border: 1px solid #ccc; /* Borde */
     border-radius: 32px; /* Bordes redondeados */
