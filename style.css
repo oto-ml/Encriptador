@@ -123,6 +123,9 @@ input[type="text"]::placeholder {
 
 /* Estilo para el contenedor vertical */
 .vertical-rectangle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 400px; /* Ajusta el ancho según tus necesidades */
     height: 944px; /* Ajusta la altura según tus necesidades */
     padding: 10px; /* Espacio interno */
@@ -140,7 +143,7 @@ input[type="text"]::placeholder {
 .message-area {
     display: flex;
     align-items: center;
-    margin-top: 619px; /* Margen superior */
+    margin-top: 20px; /* Margen superior */
     width: 336px; /* Ajusta el ancho según tus necesidades */
     height: 122px; /* Ajusta la altura según tus necesidades */
     background-color: rgba(0, 0, 0, 0.2);
@@ -150,11 +153,12 @@ input[type="text"]::placeholder {
     font-weight: bold; /* Peso de la fuente */
     font-size: 24px; /* Tamaño de la fuente */
     text-align: center; /* Alineación del texto */
+    margin: 100px;
 }
 
 .result-image {
-    display: flex; ;
+    display: block; 
     width: 336px; /* Ajusta el tamaño según sea necesario */
     height: 334px; /* Mantiene la proporción de la imagen */
-    margin-bottom: 0px; /* Margen inferior */
+    margin-bottom: 20px; /* Margen inferior */
 }
