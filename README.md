@@ -3,8 +3,9 @@
 ![Banner](./img/Encriptador.png)
 
 ## Descripción
-La realización de este proyecto fue para Oracle Next Education. Con la finalidad de demostrar el aprendizaje adquirido durante la etapa introductoria de este reto.
-El Encriptador es una aplicación web que permite encriptar y desencriptar texto utilizando un algoritmo simple. Es útil para proteger mensajes de texto de manera básica.
+La realización de este encriptador fue para Oracle Next Education. Con la finalidad de demostrar el aprendizaje adquirido durante la etapa introductoria de este reto.
+
+Los encriptadores de palabras son herramientas digitales que permiten cifrar y descifrar texto utilizando algoritmos de encriptación. Estos sistemas son esenciales para proteger la información confidencial, permitiendo que solo las personas con la clave correcta puedan acceder al mensaje original.
 
 
 ## Características
