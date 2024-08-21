@@ -145,6 +145,9 @@ input[type="text"]::placeholder {
     height: 122px; /* Ajusta la altura según tus necesidades */
     background-color: rgba(0, 0, 0, 0.2);
     resize: none; /* Evita que el usuario cambie el tamaño del textarea */
+    font-family: "Inter", sans-serif; /* Familia de la fuente */
+    font-weight: bold; /* Peso de la fuente */
+    font-size: 24px; /* Tamaño de la fuente */
 }
 
 .result-image {
